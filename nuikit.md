@@ -8,7 +8,8 @@ weight: 2
 
 <p>The api is set up so as to encourage the integrator to craft his own abstractions on top of the existing primitives. The library has no dependencies, internal memory allocation or floating point operations, which makes embedding it a trivial task. Directly mapped ffi bindings are also provided for luajit and python/pypy.
 </p>
-<p><a href="{{ post.url }}">GitHub</a></p>
+<p><b>check back later</b></p>
+
 <ul class="posts">
 	  {% for post in site.posts %}
      {% if post.categories contains 'nuikit' %}
