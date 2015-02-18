@@ -6,7 +6,7 @@ weight: 10
 
 
 <p>Protobot(wizgrav vs hellbilly) <a href="/public/audio/protobot.bwproject" >Bitwig source</a></p>
-<audio src="/public/audio/protobot.wav" loop="true" controls="true" autoplay>
+<audio src="/public/audio/protobot.ogg" loop="true" controls="true" autoplay>
   Your browser does not support the <code>audio</code> element.
 </audio>
 
