@@ -28,6 +28,11 @@
         {% endif %}
       {% endfor %}
       <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub</a>
+      <span class="sidebar-nav-item" href="{{ site.github.repo }}">
+      <input style="vertical-align:middle;" type="checkbox" checked onchange="document.getElementById('tune').muted = this.checked;return true;"/>Mute
+      </span>
+      <audio id="tune" src="/public/audio/protobot.ogg" loop="true" autoplay>
+      </audio>
     </nav>
 
     <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
