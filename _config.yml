@@ -9,7 +9,9 @@ relative_permalinks: true
 # Setup
 title:            Wizgrav
 tagline:          'You Nexus, huh?'
+
 description:      "I'm your digital craftsman."
+
 url:              http://wizgrav.com
 baseurl:          /
 
