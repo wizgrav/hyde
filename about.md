@@ -5,7 +5,7 @@ weight: 1
 ---
 
 <p class="message">
-  Hello I'm Yannis, a software engineer from Greece. This is a weblog of my involvement in the fields of machine vision, robotics and whatever catches my interest long enough to do something meaningful with it. Feel free to contact me with questions or suggestions regarding the content of the site.
+  Hello I'm Yannis, a software engineer from Greece. This is a log of my involvement in the fields of networking, machine vision, robotics and whatever catches my interest long enough to do something meaningful with it. Feel free to contact me with questions or suggestions regarding the content of the site.
 </p>
 
 
