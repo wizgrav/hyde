@@ -100,8 +100,4 @@ for count in xrange(0,300):
 print("Average fps",300.0/(time.time()-start))
 {% endhighlight %}
 
-You can find a slightly more advanced example in the source distribution that displays the frame and the measured depth of points on mouse click. It requires SDL2 & dev headers installed. It uses the cffi's module facilities to compile and link a crude windowing lib written in ordinary C embedded in the python script. This capability is of great value on it's own so it will probably be the main focus of a later post. The highlight that concerns our case is where the painting takes place:
-
-{% highlight python %}
-
-{% endhighlight %}
+You can find a slightly more advanced example in the source distribution that displays the frame and the measured depth of points on mouse click. It requires SDL2 & dev headers installed. It uses the cffi's module facilities to compile and link a crude windowing lib written in ordinary C embedded in the python script. This capability is of great value on it's own so it will probably be the main focus of a later post.
