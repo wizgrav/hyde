@@ -16,7 +16,7 @@ Assuming a debian distro, you need some prequisites to fetch and build the sourc
 sudo apt-get install git build-essential
 {% endhighlight %}
 
-You'll also need the kernel headers for the running kernel to build modules against. For the raspberry pi the following should work:
+You'll also need the kernel headers for your running kernel to build the module against. For the raspberry pi the following should work:
 
 {% highlight bash %}
 sudo rpi-update && sudo reboot
@@ -102,4 +102,4 @@ for count in xrange(0,300):
 print("Average fps",300.0/(time.time()-start))
 {% endhighlight %}
 
-You can find a slightly more advanced example in the source distribution that displays the frame and the measured depth of points on mouse click. It requires SDL2 & dev headers installed. It uses the cffi's module facilities to compile and link a crude windowing lib written in ordinary C embedded in the python script. This capability is of great value on it's own so it will probably be the main focus of a later post.
+You can find a slightly more advanced example in the source distribution that displays the frame and the measured depth of points on mouse click. It requires SDL2 & dev headers installed. It uses the cffi's module facilities to compile and link a crude windowing lib in C right in the python script. This capability will probably be the main focus of a later post.
