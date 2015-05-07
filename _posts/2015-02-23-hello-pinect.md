@@ -4,7 +4,9 @@ title: Hello Pinect
 categories: pinect
 ---
 
-Pinect is a linux kernel module for the xbox360 kinect device. It is based on the work done by the [openkinect community](http://openkinect.org/) and intended as an alternative to using [libfreenect](https://github.com/OpenKinect/libfreenect). Besides being more efficient, it also works reliably on targets where libfreenect does not, due to usb issues, like the popular [raspberry pi board](http://www.raspberrypi.org/).
+Pinect is a linux kernel module for the xbox360 kinect device. It is based on the work done by the [openkinect community](http://openkinect.org/) and intended as an alternative to using [libfreenect](https://github.com/OpenKinect/libfreenect). Besides being more efficient, it also works reliably on targets where libfreenect does not, due to usb issues, specifically the popular [raspberry pi board](http://www.raspberrypi.org/).
+
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='http://www.youtube.com/embed/uDNKR1b1FdY' frameborder='0' allowfullscreen></iframe></div>
 
 ### Install
 
@@ -78,7 +80,7 @@ int pinect_free(pinect_dev *dev);
 {% endhighlight %}
 
 
-A set of thin, ffi-based, bindings are provided for luajit and python/pypy. Here's an example for measuring the performance. You can run it in python, which needs the cffi module, and is slow, or preferably with pypy which has the ffi interface built in:
+On top of the C api, a set of ffi-based bindings are also provided for luajit and python/pypy. Here's an example for testing performance of frame capture. You can run it in python, which needs the cffi module, and is slow, or preferably with pypy which has the ffi interface built in:
 
 {% highlight python %}
 #The ffi binding is pinect.py
