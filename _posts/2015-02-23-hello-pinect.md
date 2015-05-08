@@ -24,6 +24,11 @@ sudo wget https://raw.githubusercontent.com/notro/rpi-source/master/rpi-source -
 rpi-source
 {% endhighlight %}
 
+The repo for the module is [here](https://github.com/wizgrav/pinect). You can clone the repo with:
+{% highlight bash %}
+git clone https://github.com/wizgrav/pinect
+{% endhighlight %}
+
 enter the directory where pinect is extracted or cloned and:
 
 {% highlight bash %}
