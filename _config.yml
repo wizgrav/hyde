@@ -10,7 +10,7 @@ relative_permalinks: true
 title:            Wizgrav
 tagline:          'You Nexus, huh?'
 
-description:      "Objectively digital"
+description:      "Objectively digital works"
 
 url:              http://wizgrav.com
 baseurl:          /
