@@ -13,4 +13,4 @@ You can check and contribute on my [GitHub repo](https://github.com/wizgrav).
 
 ## Contact
 
-If you find that the concepts and technologies presented here fit your needs, I also provide consulting and integration services as well as facilitate workshops. For any inquiries, please contact me at my email, wizgrav at gmail dot com, or my [LinkedIn profile](https://www.linkedin.com/in/wizgrav). I will, usually, respond swiftly.
+If you find that the concepts and technologies presented here fit your needs, I facilitate workshops and provide consulting and development services. For any inquiries, please contact me at my email, wizgrav at gmail dot com, or my [LinkedIn profile](https://www.linkedin.com/in/wizgrav). I will, usually, respond swiftly.
